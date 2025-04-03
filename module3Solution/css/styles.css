@@ -1,1 +1,51 @@
+/* Navbar */
+.navbar {
+    margin-bottom: 20px; /* Space below navbar */
+}
 
+/* Mobile Dropdown Menu */
+#navbar-collapse {
+    background-color: #e8e8e8; /* Slightly darker than section for distinction */
+    width: 100%; /* Full width */
+    margin: 0; /* Remove default margins */
+    padding: 0; /* Remove padding to match mockup */
+}
+
+#navbar-collapse ul {
+    width: 100%; /* Ensure list takes full width */
+    margin: 0; /* Remove default margins */
+}
+
+#navbar-collapse li {
+    text-align: center; /* Center menu items */
+    border-bottom: 1px solid #ccc; /* Separator between items */
+}
+
+#navbar-collapse li:last-child {
+    border-bottom: none; /* Remove border from last item */
+}
+
+#navbar-collapse a {
+    color: #333; /* Dark text for contrast */
+    font-size: 1.2em; /* Slightly larger text */
+    padding: 15px 0; /* Vertical padding for better spacing */
+    display: block; /* Ensure full-width clickable area */
+}
+
+#navbar-collapse a:hover {
+    background-color: #d8d8d8; /* Hover effect */
+}
+
+/* Main Section */
+.section {
+    background-color: #f0f0f0; /* Distinct background */
+    padding: 15px; /* Reduced padding to match mockup */
+    min-height: 1000px; /* Tall section for scrolling */
+}
+
+/* Section Title */
+.section-title {
+    text-align: center; /* Center the title */
+    margin-bottom: 15px; /* Space below title */
+    font-size: 1.5em; /* Slightly larger than default */
+}
